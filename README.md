@@ -1,21 +1,10 @@
 # Advent
 
-**TODO: Add description**
+My solutions to the 2021 advent of code.
 
-## Installation
+To run an task, place your input in the "input.txt" for the given day, and run the test.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `advent` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:advent, "~> 0.1.0"}
-  ]
-end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/advent](https://hexdocs.pm/advent).
+$ mix test test/advent_tests
+```
 
