@@ -25,6 +25,18 @@ defmodule AdventTest do
       Advent.Day2.ComplicatedDive.parse_input(FileReader.get_input("lib/day_2/input.txt"))
     ) == 1872757425
   end
+
+  test "Day 3 - Binary Diagnostic - part 1" do
+    assert Advent.Day3.BinaryDiagnostic.power_consumption(
+      Advent.Day3.BinaryDiagnostic.parse_input(FileReader.get_input("lib/day_3/input.txt"))
+    ) == 1458194
+  end
+
+  test "Day 3 - Binary Diagnostic - part 2" do
+    assert Advent.Day3.BinaryDiagnostic.life_support_rating(
+      Advent.Day3.BinaryDiagnostic.parse_input(FileReader.get_input("lib/day_3/input.txt"))
+    ) == 2829354
+  end
   # test "Day 1 - Report repair - part 2" do
   #   assert Advent.Day1.ReportRepair.find_expense_product(
   #     FileReader.get_input("lib/day_1/input.txt"),
