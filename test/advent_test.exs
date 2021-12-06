@@ -37,6 +37,18 @@ defmodule AdventTest do
       Advent.Day3.BinaryDiagnostic.parse_input(FileReader.get_input("lib/day_3/input.txt"))
     ) == 2829354
   end
+
+  test "Day 5 - Giant squid - part 1" do
+    assert Advent.Day4.GiantSquid.winning_board(
+      Advent.Day4.GiantSquid.parse_input(FileReader.get_input("lib/day_4/input.txt"))
+    ) == 72770
+  end
+
+  test "Day 5 - Giant squid - part 2" do
+    assert Advent.Day4.GiantSquid.loosing_board(
+      Advent.Day4.GiantSquid.parse_input(FileReader.get_input("lib/day_4/input.txt"))
+    ) == 2
+  end
   # test "Day 1 - Report repair - part 2" do
   #   assert Advent.Day1.ReportRepair.find_expense_product(
   #     FileReader.get_input("lib/day_1/input.txt"),
